@@ -1,5 +1,5 @@
 {
-    "name": "yeesoft/yii2-multilingual",
+    "name": "codigowww/yii2-multilingual",
     "description": "Yii2 Multilingual Module",
     "keywords": ["yii2", "extension", "yii2-multilingual", "multilingual", "i18n"],
     "type": "yii2-extension",
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "yeesoft\\multilingual\\": "src"
+            "codigowww\\multilingual\\": "src"
         }
     },
     "require": {
