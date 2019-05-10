@@ -1,10 +1,10 @@
 <?php
 
-namespace yeesoft\multilingual\widgets;
+namespace codigowww\multilingual\widgets;
 
 use Yii;
-use yeesoft\multilingual\widgets\FormLanguageSwitcher;
-use yeesoft\multilingual\containers\MultilingualFieldContainer;
+use codigowww\multilingual\widgets\FormLanguageSwitcher;
+use codigowww\multilingual\containers\MultilingualFieldContainer;
 
 /**
  * Multilingual ActiveForm
@@ -14,7 +14,7 @@ class ActiveForm extends \yii\bootstrap\ActiveForm
     /**
      * @var string the default field class name when calling [[field()]] to create a new field.
      */
-    public $fieldClass = 'yeesoft\multilingual\widgets\ActiveField';
+    public $fieldClass = 'codigowww\multilingual\widgets\ActiveField';
 
     /**
      * 

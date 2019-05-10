@@ -1,9 +1,9 @@
 <?php
 
-namespace yeesoft\multilingual\containers;
+namespace codigowww\multilingual\containers;
 
 use yii\base\Object;
-use yeesoft\multilingual\helpers\MultilingualHelper;
+use codigowww\multilingual\helpers\MultilingualHelper;
 
 class MultilingualFieldContainer extends Object
 {

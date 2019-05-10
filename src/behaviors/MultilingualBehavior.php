@@ -1,6 +1,6 @@
 <?php
 
-namespace yeesoft\multilingual\behaviors;
+namespace codigowww\multilingual\behaviors;
 
 use Yii;
 use yii\base\Behavior;
@@ -9,7 +9,7 @@ use yii\base\InvalidConfigException;
 use yii\db\ActiveQuery;
 use yii\db\ActiveRecord;
 use yii\validators\Validator;
-use yeesoft\multilingual\helpers\MultilingualHelper;
+use codigowww\multilingual\helpers\MultilingualHelper;
 
 class MultilingualBehavior extends Behavior
 {
